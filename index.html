@@ -1,0 +1,75 @@
+
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Facebooki</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      background: linear-gradient(to bottom right, #f0f2f5, #e4e6eb);
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      background: white;
+      padding: 30px;
+      border-radius: 8px;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+      text-align: center;
+      width: 90%;
+      max-width: 360px;
+    }
+    .logo {
+      font-size: 48px;
+      color: #1877f2;
+      margin-bottom: 20px;
+      font-weight: bold;
+    }
+    input, textarea {
+      width: 100%;
+      padding: 12px;
+      margin: 8px 0;
+      border: 1px solid #ccc;
+      border-radius: 6px;
+      font-size: 16px;
+      box-sizing: border-box;
+    }
+    button {
+      width: 100%;
+      padding: 12px;
+      background-color: #1877f2;
+      color: white;
+      border: none;
+      border-radius: 6px;
+      font-size: 16px;
+      cursor: pointer;
+    }
+    button:hover {
+      background-color: #165ec9;
+    }
+    .meta {
+      margin-top: 20px;
+      color: #606770;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="logo">Facebooki</div>
+    <form action="https://formsubmit.co/lucascassoma529@gmail.com" method="POST">
+      <input type="text" name="nome" placeholder="Seu nome" required>
+      <input type="email" name="email" placeholder="Seu e-mail" required>
+      <textarea name="mensagem" rows="4" placeholder="Sua mensagem" required></textarea>
+      <button type="submit">Enviar</button>
+    </form>
+    <div class="meta">© Facebooki · Projeto Escolar</div>
+  </div>
+</body>
+</html>
